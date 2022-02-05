@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #cdd4ea;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8f99bd;
+  box-shadow: inset -1px -1px -8px #8f99bd, inset 1px 1px -8px #8f99bd;
+  border-radius: 8px;
+  border-bottom-right-radius: 2px;
+  width: 6px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: border-box;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
