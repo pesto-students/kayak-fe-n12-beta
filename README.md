@@ -90,10 +90,9 @@ We tried to use a completely modern tech stack while testing out some new techno
 
 # Authors
 
-- [Alabhya Pandey](https://github.com/alabhya139)
-- [Abhishek Jain](https://github.com/abhijain2618)
+- [Alabhya Pandey](https://linkedin.com/in/alabhya13) - [GiHub](https://github.com/alabhya139) - [Email](mailto:alabhyap@gmail.com)
+- [Abhishek Jain](https://www.linkedin.com/in/abhijain2618) - [GiHub](https://github.com/abhijain2618) - [Email](mailto:abhijain2618@gmail.com)
 
-<br/>
 
 # License
 
