@@ -83,6 +83,7 @@ We tried to use a completely modern tech stack while testing out some new techno
 - [Material UI](https://mui.com/)
 - [Fetch Api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [Razorpay](https://razorpay.com/)
+- [Heroku](https://heroku.com/)
 - [Airbnb Eslint](https://www.npmjs.com/package/eslint-config-airbnb)
 - [Preetier](https://prettier.io/)
 
