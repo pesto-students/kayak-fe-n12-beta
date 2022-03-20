@@ -1,100 +1,100 @@
-# _Kayak_
 
-<div id="top"></div>
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://res.cloudinary.com/deyf6lh8s/image/upload/v1647766108/Screenshot_2022-03-20_at_2.16.47_PM_soj76n.png" width="248px" >
+</p>
+We at “KAYAK” bring together idea curators
+and investors on one page along with our
+existing community who have invested in
+different ideas and have seen them make an
+impact in our lives.
 
-## Getting Started
 
-**Kayak** A single platform for Idea Curator and Investors
+Welcome! we hope you enjoy the site as much as we enjoyed making it.
+ 
+  
+<!-- TABLE OF CONTENTS -->
+<br/>
 
-### Prerequisites
+# Table of Contents
 
-Step to setup in local env.
+1. [Demo](#demo)
+2. [Installation](#installation)
+3. [Technology Stack](#technology-stack)
+4. [Authors](#authors)
+5. [License](#license)
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-- node
+<br/>
 
-  [https://nodejs.org/en/download/](Node.js)
+# Demo
 
-- git
+[Live Demo](https://kayak-frontend.herokuapp.com/)
 
-  [https://git-scm.com/downloads](Git)
+<br/>
 
-### Installation
+<b>Please Note:</b>
 
-_Steps for local setup_
+1. We recommend using this app in Google Chrome, Edge or Safari.
+2. The app is optimised for most popular screen sizes
+
+
+<br/>
+<b>Test Credentials:</b>
+
+A "login by test account" button is provided to start using the application with test account or use the following credentials.
+
+<span><b>Email</b>: alabhyap@gmail.com</span>
+<span><b>Password:</b> Alabhya-Test</span>
+
+# Installation
 
 1. Clone the repo
-   ```sh
-   git clone git@github.com:pesto-students/kayak-fe-n12-beta.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Start the Project
-   ```sh
-   npm run dev
-   ```
-4. Browse to [http://localhost:3000](Link)
+    ```sh
+    git clone https://github.com/pesto-students/kayak-fe-n12-beta.git
+    ```
+2. Set environment variables
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+   REACT_APP_BASE_URL=https://kayak-backend.herokuapp.com/api/v1/<br />
+   REACT_APP_TEST_EMAIL= <br/>
+   REACT_APP_TEST_PASSWORD= <br/>
 
----
+3. Install NPM packages
+    ```sh
+    cd kayak-fe-n12-beta && npm install
+    ```
+4. Run
+    ```sh
+    npm start
+    ```
+5. Open http://localhost:3000 to view it in the browser
 
-🎯 **Objective**
+6. Run Test cases
+    ```sh
+    npm test
+    ```
+<br/>
 
-⭐ `*Vision*`: We at **KAYAK** bring together idea **curators** and **investors** on one page along with our existing **community** who have invested in different ideas and have seen them make an impact in our lives
+# Technology Stack
 
-⭐ `*Goals*`:
+We tried to use a completely modern tech stack while testing out some new technologies that we had never used before. This resulted in a fast, performant, and easily-extensible web app that should be fairly future-proof for the coming next several years. We used:
 
-To build a **scalable** crowd-funding platform for the community.
+- [React](https://reactjs.org/)
+- [Material UI](https://mui.com/)
+- [Fetch Api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [Razorpay](https://razorpay.com/)
+- [Airbnb Eslint](https://www.npmjs.com/package/eslint-config-airbnb)
+- [Preetier](https://prettier.io/)
 
-To build **responsive** and easy to use applications with minimum click for a user flow.
+<br/>
 
-To build a **platform** that brings together large numbers of investors and idea curators and support them.
+# Authors
 
-⭐ `*Personas*`: **Investor & Idea Curator**
+- [Alabhya Pandey](https://github.com/alabhya139)
+- [Abhishek Jain](https://github.com/abhijain2618)
 
----
+<br/>
 
-> Demo Link : [Kayak](http://kayak-frontend.herokuapp.com/)
+# License
 
-> Figma Link : [Kayak](https://www.figma.com/file/PZkPlqygUW1w8Vidq28ZtQ/Kayak-App?node-id=940%3A18)
-
-> BackEnd Repo : [Kayak](https://github.com/pesto-students/kayak-be-n12-beta)
-
----
-
-## Tools and Libraries
-
-- ReactJS
-- React Hooks
-- TypeScipt
-- Axios
-- MaterialUI
-
-## API Integrations
-
-- RazorPay - Payments
-- Cloudnary - Media storage
-
-## Mobile Responsive
-
-- Fits to Mobile Screen
-- Fits to Tab Screen
-- Fits to Desktop
-
-## Coding Standards
-
-- AirBnB Style Guide
-- Eslint
-- Prettier
-
-## Contributors
-
-Abhishek Jain - [GiHub](https://github.com/abhijain2618) - [Email](mailto:abhijain2618@gmail.com) - [LinkedIn](https://www.linkedin.com/in/abhijain2618)
-
-Alabhya Pandey - [GiHub](https://github.com/alabhya139) - [Email](mailto:alabhyap@gmail.com) - [LinkedIn](https://linkedin.com/in/alabhya13)
+- [MIT](https://opensource.org/licenses/MIT)
