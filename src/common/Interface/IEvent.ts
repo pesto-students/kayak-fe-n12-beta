@@ -1,0 +1,29 @@
+export interface IEvent {
+  _id: string;
+  name: string;
+  creatorId: string;
+  creatorName: string;
+  description: string;
+  status: string;
+  category: string;
+  isEventPublished: boolean;
+  highlightingImageVideoURL: string;
+  totalFunding: number;
+  expectedFunding: number;
+  location: string;
+  meetingUrl: string;
+  meetingPassword: string;
+  pitchDate: Date;
+  pitchDateTimestamp: number;
+  startDate: Date;
+  startDateTimestamp: number;
+  detailedInformation: string;
+  backers: string[];
+  subscribers: string[];
+  viewCount: number;
+  transactionAmount?: string;
+  transactionId?: number;
+  transactionDate?: Date;
+  transactionStatus?: string;
+  orderId?: string;
+}
